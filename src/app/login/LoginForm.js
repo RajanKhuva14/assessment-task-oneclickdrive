@@ -96,7 +96,7 @@ export default function LoginForm() {
                   >
                     Email
                   </label>
-                  <TextField
+                  <input
                     placeholder="Email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
@@ -116,7 +116,7 @@ export default function LoginForm() {
                   >
                     Password
                   </label>
-                  <TextField
+                  <input
                     type="password"
                     placeholder="Password"
                     value={password}
