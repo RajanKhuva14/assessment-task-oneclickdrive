@@ -1,0 +1,257 @@
+export let listings = [
+  {
+    id: 1,
+    carIndex: 1,
+    carName: "Toyota Camry",
+    carImage: "BMW_M3-Competition_2022_21375_21375_13805892759-3_small.webp",
+    customerName: "John Doe",
+    customerNumber: "1234567890",
+    customerEmail: "john@example.com",
+    status: "pending",
+    createdAt: "2024-07-10T17:06:06.578Z",
+    createdBy: "System",
+    updatedBy: "",
+    updatedAt: "",
+  },
+  {
+    id: 2,
+    carIndex: 2,
+    carName: "Honda Civic",
+    carImage: "BMW-735i-2023_19784_32477880576-8_small.webp",
+    customerName: "Jane Smith",
+    customerNumber: "0987654321",
+    customerEmail: "jane@example.com",
+    status: "pending",
+    createdAt: "2024-07-10T17:06:06.578Z",
+    createdBy: "System",
+    updatedBy: "",
+    updatedAt: "",
+  },
+  {
+    id: 3,
+    carIndex: 3,
+    carName: "Ford Focus",
+    carImage: "Cadillac_Escalade_2022_39464_39464_32405861988-1_small.webp",
+    customerName: "Alice Johnson",
+    customerNumber: "5551234567",
+    customerEmail: "alice@example.com",
+    status: "pending",
+    createdAt: "2024-07-10T17:06:06.578Z",
+    createdBy: "System",
+    updatedBy: "",
+    updatedAt: "",
+  },
+  {
+    id: 4,
+    carIndex: 4,
+    carName: "Chevrolet Malibu",
+    carImage: "Ferrari_SF90-Stradale_2022_17007_17007_14301287385-1_small.webp",
+    customerName: "Bob Brown",
+    customerNumber: "5559876543",
+    customerEmail: "bob@example.com",
+    status: "pending",
+    createdAt: "2024-07-10T17:06:06.578Z",
+    createdBy: "System",
+    updatedBy: "",
+    updatedAt: "",
+  },
+  {
+    id: 5,
+    carIndex: 5,
+    carName: "Nissan Altima",
+    carImage:
+      "Ferrari-296-GTS-Spyder-2023_24306_22308633222-7_24306__small.webp",
+    customerName: "Carol White",
+    customerNumber: "5552223333",
+    customerEmail: "carol@example.com",
+    status: "pending",
+    createdAt: "2024-07-10T17:06:06.578Z",
+    createdBy: "System",
+    updatedBy: "",
+    updatedAt: "",
+  },
+  {
+    id: 6,
+    carIndex: 6,
+    carName: "Hyundai Elantra",
+    carImage: "Ferrari-SF90-Spider-2023_39325_32614767118-9_small.webp",
+    customerName: "David Green",
+    customerNumber: "5554445555",
+    customerEmail: "david@example.com",
+    status: "pending",
+    createdAt: "2024-07-10T17:06:06.578Z",
+    createdBy: "System",
+    updatedBy: "",
+    updatedAt: "",
+  },
+  {
+    id: 7,
+    carIndex: 7,
+    carName: "Kia Optima",
+    carImage:
+      "Lamborghini_Huracan-Evo-Coupe_2020_38477_38477_3108535521-1_small.webp",
+    customerName: "Eve Black",
+    customerNumber: "5556667777",
+    customerEmail: "eve@example.com",
+    status: "pending",
+    createdAt: "2024-07-10T17:06:06.578Z",
+    createdBy: "System",
+    updatedBy: "",
+    updatedAt: "",
+  },
+  {
+    id: 8,
+    carIndex: 8,
+    carName: "Volkswagen Passat",
+    carImage:
+      "Lamborghini-Aventador-SVJ-Coupe-2022_38412_31006731552-17_small.webp",
+    customerName: "Frank Blue",
+    customerNumber: "5558889999",
+    customerEmail: "frank@example.com",
+    status: "pending",
+    createdAt: "2024-07-10T17:06:06.578Z",
+    createdBy: "System",
+    updatedBy: "",
+    updatedAt: "",
+  },
+  {
+    id: 9,
+    carIndex: 9,
+    carName: "Mazda 6",
+    carImage:
+      "Lamborghini-Huracan-Evo-Spyder-2022_26194_31871746568-18_small.webp",
+    customerName: "Grace Red",
+    customerNumber: "5550001111",
+    customerEmail: "grace@example.com",
+    status: "pending",
+    createdAt: "2024-07-10T17:06:06.578Z",
+    createdBy: "System",
+    updatedBy: "",
+    updatedAt: "",
+  },
+  {
+    id: 10,
+    carIndex: 10,
+    carName: "Subaru Legacy",
+    carImage:
+      "Lamborghini-Huracan-Performante-2020_37924_30457253885-8_small.webp",
+    customerName: "Henry Silver",
+    customerNumber: "5553334444",
+    customerEmail: "henry@example.com",
+    status: "pending",
+    createdAt: "2024-07-10T17:06:06.578Z",
+    createdBy: "System",
+    updatedBy: "",
+    updatedAt: "",
+  },
+  {
+    id: 11,
+    carIndex: 11,
+    carName: "BMW 3 Series",
+    carImage: "Lamborghini-Huracan-Spyder-2020_37730_30270670626-4_small.webp",
+    customerName: "Ivy Gold",
+    customerNumber: "5557778888",
+    customerEmail: "ivy@example.com",
+    status: "pending",
+    createdAt: "2024-07-10T17:06:06.578Z",
+    createdBy: "System",
+    updatedBy: "",
+    updatedAt: "",
+  },
+  {
+    id: 12,
+    carIndex: 12,
+    carName: "Mercedes C-Class",
+    carImage: "Mercedes-Benz_G63-AMG_2020_34356_34356_29010982466-7_small.webp",
+    customerName: "Jack Gray",
+    customerNumber: "5559990000",
+    customerEmail: "jack@example.com",
+    status: "pending",
+    createdAt: "2024-07-10T17:06:06.578Z",
+    createdBy: "System",
+    updatedBy: "",
+    updatedAt: "",
+  },
+  {
+    id: 13,
+    carIndex: 13,
+    carName: "Audi A4",
+    carImage: "Mercedes-Benz-A220-2020_16949_23293628457-11_16949__small.webp",
+    customerName: "Karen Violet",
+    customerNumber: "5551112222",
+    customerEmail: "karen@example.com",
+    status: "pending",
+    createdAt: "2024-07-10T17:06:06.578Z",
+    createdBy: "System",
+    updatedBy: "",
+    updatedAt: "",
+  },
+  {
+    id: 14,
+    carIndex: 14,
+    carName: "Lexus ES",
+    carImage:
+      "Porsche_911-Carrera-4-GTS_2023_37172_37172_2980258380-1_small.webp",
+    customerName: "Leo Indigo",
+    customerNumber: "5554446666",
+    customerEmail: "leo@example.com",
+    status: "pending",
+    createdAt: "2024-07-10T17:06:06.578Z",
+    createdBy: "System",
+    updatedBy: "",
+    updatedAt: "",
+  },
+  {
+    id: 15,
+    carIndex: 15,
+    carName: "Tesla Model 3",
+    carImage: "Porsche-911-GT3-RS-2025_39426_32707561267-13_small.webp",
+    customerName: "Mona Pink",
+    customerNumber: "5555556666",
+    customerEmail: "mona@example.com",
+    status: "pending",
+    createdAt: "2024-07-10T17:06:06.578Z",
+    createdBy: "System",
+    updatedBy: "",
+    updatedAt: "",
+  },
+];
+
+export function getListings(page = 1, pageSize = 10) {
+  const start = (page - 1) * pageSize;
+  const end = start + pageSize;
+  return {
+    listings: listings.slice(start, end),
+    total: listings.length,
+  };
+}
+
+export function updateListing(id, data) {
+  const idx = listings.findIndex((l) => l.id === id);
+  if (idx !== -1) {
+    listings[idx] = {
+      ...listings[idx],
+      ...data,
+      updatedAt: new Date().toISOString(),
+      updatedBy: "Current User",
+    };
+    return listings[idx];
+  }
+  return null;
+}
+
+export function approveListing(id) {
+  return updateListing(id, {
+    status: "approved",
+    updatedAt: new Date().toISOString(),
+    updatedBy: "Current User",
+  });
+}
+
+export function rejectListing(id) {
+  return updateListing(id, {
+    status: "rejected",
+    updatedAt: new Date().toISOString(),
+    updatedBy: "Current User",
+  });
+}
